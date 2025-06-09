@@ -1,67 +1,57 @@
 # Hospital-Emergency-Room-Analysis-Dashboard
-Project Purpose
-The goal of this project was to create a simple and effective Emergency Room (ER) analysis dashboard using Microsoft Excel. The objective was to help hospital staff track key metrics and identify areas for operational improvement.
 
-Business Problem
-Hospitals often face challenges in:
+## Project Purpose
 
-Monitoring the number of daily ER visits
+This project aims to develop a simple yet effective dashboard in Microsoft Excel to help hospital staff monitor key Emergency Room (ER) performance metrics. The dashboard supports data-driven decisions to improve operational efficiency and patient experience.
 
-Tracking average patient wait times
+## Business Problem
 
-Measuring patient satisfaction consistently
+Hospitals face challenges in:
 
-Without a structured view, it is difficult to analyze trends or take action to improve patient experience.
+* Tracking the daily volume of ER visits
+* Monitoring average patient wait times
+* Measuring patient satisfaction consistently
 
-Steps Followed
-Requirement Gathering: Identified key performance indicators (KPIs) that needed to be tracked
+Without a consolidated view of these metrics, it is difficult to identify trends and address operational bottlenecks.
 
-Data Understanding: Reviewed the structure and quality of the dataset
+## Approach and Methodology
 
-Data Import & Cleaning: Used Power Query to import and clean data
+* **Requirement Gathering:** Defined the essential KPIs to track ER performance
+* **Data Understanding:** Analyzed the dataset’s structure and quality to ensure reliability
+* **Data Import & Cleaning:** Utilized Power Query in Excel for efficient data cleansing and preparation
+* **Calendar Table Creation:** Developed a date table to enable time-based analyses
+* **Data Modeling:** Established relationships between tables using Power Pivot
+* **DAX Calculations:** Created calculated columns and measures to compute KPIs such as average wait time
+* **Pivot Tables & Charts:** Designed summaries to display key metrics interactively
+* **Dashboard Design:** Built a user-friendly, one-page Excel dashboard combining charts, KPIs, and sparklines for trend visualization
 
-Created Calendar Table: Enabled date-based analysis
+## Key Performance Indicators (KPIs)
 
-Data Modeling in Power Pivot: Built relationships between tables
+* Total number of ER patients per day
+* Average patient wait time
+* Patient satisfaction scores
 
-DAX Calculations: Created calculated columns and KPIs, such as average wait time
+## Outcome
 
-Built Pivot Tables: Summarized key metrics effectively
+The dashboard provides a concise and interactive overview of ER operations, allowing stakeholders to:
 
-Dashboard Design: Combined charts and KPIs into a clean, one-page layout
+* Monitor daily trends in patient visits and wait times
+* Identify peak hours and potential bottlenecks
+* Assess overall service quality for continuous improvement
 
-KPIs Tracked
-Total Number of Patients per Day
+## Tools and Technologies
 
-Average Wait Time
+* Microsoft Excel
+* Power Query
+* Power Pivot
+* Data Analysis Expressions (DAX)
+* Pivot Tables and Pivot Charts
 
-Patient Satisfaction Score
+## Learnings
 
-All KPIs were visualized using pivot charts and sparklines to observe daily trends and patterns.
+* Data cleaning and preparation using Power Query
+* Data modeling and relationship management in Power Pivot
+* Writing DAX formulas to calculate dynamic KPIs
+* Designing effective and interactive dashboards in Excel
 
-Result
-The final dashboard provided a clear summary of ER performance, enabling users to:
 
-View daily trends
-
-Identify peak hours or problem areas
-
-Monitor overall service quality
-
-Tools Used
-Microsoft Excel
-
-Power Query
-
-Power Pivot
-
-DAX
-
-Pivot Tables and Charts
-
-What I Learned
-Techniques to clean and model data using Excel
-
-How to create calculated columns and KPIs with DAX
-
-Best practices to build interactive and informative Excel dashboards
