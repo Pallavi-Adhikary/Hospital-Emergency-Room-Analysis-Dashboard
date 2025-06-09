@@ -53,5 +53,6 @@ The dashboard provides a concise and interactive overview of ER operations, allo
 * Data modeling and relationship management in Power Pivot
 * Writing DAX formulas to calculate dynamic KPIs
 * Designing effective and interactive dashboards in Excel
+* Understood how to align data solutions with real-world problems
 
 
